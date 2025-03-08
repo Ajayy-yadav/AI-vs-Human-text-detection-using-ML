@@ -1,6 +1,9 @@
 To Execute run below command:
 python -m streamlit run ai.py
 
+Csv File download here:
+https://drive.google.com/file/d/16LvnJSI7on6e4wMec5m_2edSnc4zko8c/view
+
 # AI-vs-Human-text-detection-using-ML
   — In today's digital era, distinguishing between AI-generated text and human-written content has become increasingly important, particularly in academic and  professional domains. This project focuses  developing an advanced machine learning tool designed to accurately identify whether a given text is created by artificial intelligence or written by a human. Using Python programming and cutting-edge natural language processing (NLP) techniques, the project aims to mitigate the potential misuse of AI-generated text. The methodology involves leveraging the GPT-2 model, a sophisticated AI language framework, to calculate the perplexity score of the input text. Perplexity measures the efficiency of a probabilistic model in predicting a text
 sample, providing insights into whether the content is likely AI-generated. Additionally, the project incorporates a burstiness analysis, which evaluates word repetition within the text—a common trait of AIgenerated content. To make the tool accessible and userfriendly, the project employs Streamlit to create an interactive web application. This platform allows users to input text and receive instant feedback, including the perplexity score, burstiness score, and a visualization of the most frequently repeated words using Plotly. The application also displays the input text for reference, ensuring a comprehensive and engaging user experience.
